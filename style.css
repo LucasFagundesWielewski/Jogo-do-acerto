@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@300&display=swap');
+
+:root{
+    --font-family: 'Montserrat', sans-serif;
+    --background-color: #1B262C;
+    --primary-color: #3282B8;
+    --secundary-color: #BBE1FA;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 7em;
+}
+
+h3 {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 35px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+    color: var(--secundary-color);
+}
+
+.btn-jogar {
+    padding: 12px 24px;
+    border: 0;
+    background-color: var(--secundary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
